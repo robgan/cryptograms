@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/426_final.iml" filepath="$PROJECT_DIR$/.idea/426_final.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Github_Pages/.idea/Github_Pages.iml" filepath="$PROJECT_DIR$/../Github_Pages/.idea/Github_Pages.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../UNC/Spring 2021/COMP 426/comp426-cli/.idea/comp426-cli.iml" filepath="$PROJECT_DIR$/../../UNC/Spring 2021/COMP 426/comp426-cli/.idea/comp426-cli.iml" />
+    </modules>
+  </component>
+</project>
