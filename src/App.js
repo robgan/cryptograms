@@ -207,10 +207,10 @@ function App() {
     // function postToTwitter(){
     // const OAuth = require('oauth');
     //
-    // const twitter_application_consumer_key = 'y0Njrh6HsfuuPabkUd37LYJN9';  // API Key
-    // const twitter_application_secret = 'yuEBf3rZey36w9piqlIO4NZWYFzYMpZhjFWELFzohlSJw26snq';  // API Secret
-    // const twitter_user_access_token = '1068275224246927361-toIQphfqBeuWND6j0ix5raQjVzqZja';  // Access Token
-    // const twitter_user_secret = 'FdyN15mvLWvL60zXJvg30oyg18Kxd6XubzmlyUwt8n7yS';  // Access Token Secret
+    // const twitter_application_consumer_key = '';  // API Key
+    // const twitter_application_secret = '';  // API Secret
+    // const twitter_user_access_token = '1068275224246927361-';  // Access Token
+    // const twitter_user_secret = '';  // Access Token Secret
     //
     // const oauth = new OAuth.OAuth(
     //     'https://api.twitter.com/oauth/request_token',
