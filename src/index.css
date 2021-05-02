@@ -1,13 +1,109 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    --text-clr: #000000;
+    --body-clr: #c4dbf6;
+    --quote-clr: #5ea2d5;
+    --word-clr: #90ccf4;
+    --help-clr: #5ea2d5;
+    --bio-clr: #e7e3d4;
+    --textarea-bckgrd-clr: white;
+    --textarea-text-clr: black;
+    --color-primary: white;
+    --color-secondary: #5ea2d5;
+    --color-tertiary: dodgerblue;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body.dark-theme {
+    --text-clr: #f8f8ff;
+    --body-clr: #131925;
+    --quote-clr: #1e698d;
+    --word-clr: #789fbb;
+    --help-clr: #1e698d;
+    --bio-clr: #8abca7;
+    --textarea-bckgrd-clr: #c2d5db;
+    --textarea-text-clr: black;
+    --color-primary: #1e698d;
+    --color-secondary: #f8f8ff;
+    --color-tertiary: #789fbb;
+}
+
+body {
+    background-color: var(--body-clr);
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+p, h1 {
+    color: var(--text-clr);
+}
+
+.quote {
+    background-color: var(--quote-clr);
+}
+
+.word > .quoteBlock {
+    background-color: var(--word-clr);
+}
+
+.word > .quotePunct:not(:last-child) {
+    background-color: var(--word-clr);
+}
+
+#help, #tryAgain, #congratulations {
+    background-color: var(--help-clr);
+}
+
+.description p {
+    color: black;
+}
+
+textarea {
+    background-color: var(--textarea-bckgrd-clr);
+    color: var(--textarea-text-clr);
+}
+
+.multi-button button {
+    color: var(--color-secondary);
+    background-color: var(--color-primary);
+}
+
+.multi-button button:hover,
+.multi-button button:focus {
+    color: var(--color-primary);
+    background-color: var(--color-secondary);
+}
+
+.multi-button button:focus {
+    outline: var(--border-size) dashed var(--color-primary);
+}
+
+.multi-button:hover button:focus:not(:hover) {
+    color: var(--color-secondary);
+    background-color: var(--color-primary);
+    outline-color: var(--color-tertiary);
+}
+
+.help-button button {
+    color: var(--color-secondary);
+    background-color: var(--color-primary);
+}
+
+.help-button button:hover,
+.help-button button:focus {
+    color: var(--color-primary);
+    background-color: var(--color-secondary);
+}
+
+
+.help-button button:focus {
+    outline: var(--border-size) dashed var(--color-primary);
+}
+
+.help-button:hover button:focus:not(:hover) {
+    color: var(--color-secondary);
+    background-color: var(--color-primary);
+    outline-color: var(--color-tertiary);
 }

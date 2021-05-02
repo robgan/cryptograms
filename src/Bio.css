@@ -1,0 +1,15 @@
+.description {
+    width: auto;
+    background-color: #e7e3d4;
+    margin: 20px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+}
+
+.description p {
+    font-size: large;
+    font-family: "Times New Roman";
+    margin: 10px;
+    text-align: center;
+}
