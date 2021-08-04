@@ -25,6 +25,6 @@
   "background_color": "#ffffff",
   "scripts": {
     "predeploy": "npm run build",
-    gi"deploy": "gh-pages -b master -d build"
+    "deploy": "gh-pages -b master -d build"
   }
 }
